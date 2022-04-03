@@ -1,0 +1,73 @@
+.App {
+  background-image: url("./ios-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.Swipe {
+  width: 100%;
+  background: #ed0a0a;
+  position: fixed;
+  bottom: -50px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.Swipe--active {
+  bottom: 0px;
+  z-index: 3;
+}
+
+.BackgroundIframeContainer {
+  margin: 20px;
+  border-radius: 10px;
+  filter: blur(1px);
+
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.ActiveIframeContainer {
+  position: fixed;
+  top: 0;
+  bottom: 17px;
+  left: 0;
+  width: 100%;
+  right: 0;
+  height: 100%;
+  z-index: 2;
+}
+
+.Footer {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.Footer__Container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.Footer__ContainerApps {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Footer__ContainerAppIcon {
+  background: green;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 5px;
+}

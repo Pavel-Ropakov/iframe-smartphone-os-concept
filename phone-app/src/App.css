@@ -1,0 +1,28 @@
+.App {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App h3 {
+  text-align: center;
+}
+
+.Header {
+  text-align: center;
+  border: 1px solid white;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.CallPanel {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
